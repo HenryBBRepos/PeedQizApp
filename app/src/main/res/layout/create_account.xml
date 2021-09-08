@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient_x"
+    tools:context=".CreateAccount">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/peed"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/peed_name"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentBottom="true">
+
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Play Educative Game with PeedQiz and Earn Money"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:lineHeight="25dp"
+            android:layout_marginBottom="30dp"
+            android:textFontWeight="100"
+            android:textSize="20dp" />
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:gravity="center"
+            android:elevation="2dp"
+            android:paddingRight="15dp"
+            android:layout_gravity="center"
+            android:onClick="ToDashboard"
+            android:background="@drawable/background_create_account"
+            android:layout_marginBottom="20dp"
+            android:textSize="18dp"
+            android:text="Create account"
+            android:textColor="#ffffff"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:gravity="center"
+            android:elevation="2dp"
+            android:paddingRight="15dp"
+            android:layout_gravity="center"
+            android:background="@drawable/background_created_account"
+            android:layout_marginBottom="55dp"
+            android:textSize="18dp"
+            android:text="I aready have an account"
+            android:textColor="#5A5959"
+            android:textAllCaps="false" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
